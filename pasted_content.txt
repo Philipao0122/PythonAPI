@@ -1,0 +1,206 @@
+1. Desinformación y guerra híbrida
+
+"Disinformation and Hybrid Warfare: A Critical Analysis" – Journal of Strategic Studies.
+
+"The Role of Social Media in Hybrid Warfare" – NATO Strategic Communications Centre of Excellence.
+
+"Information Warfare and the Future of Conflict" – RAND Corporation.
+
+2. Ascenso de regímenes autoritarios
+
+"Totalitarian and Authoritarian Regimes" – Juan J. Linz.
+
+"How Dictatorships Work: Power, Personalization, and Collapse" – Barbara Geddes, Joseph Wright, Erica Frantz.
+
+"The Evolution of Authoritarian Digital Influence" – Shanthi Kalathil.
+Wikipedia
+Wikipedia
+Wikipedia
+
+3. Conflictos persistentes (Israel-Palestina, Ucrania-Rusia, Sáhara Occidental)
+
+"The Israeli-Palestinian Conflict: A Century of History" – James L. Gelvin.
+
+"Ukraine and Russia: From Civilized Divorce to Uncivil War" – Paul D'Anieri.
+
+"Western Sahara: War, Nationalism, and Conflict Irresolution" – Stephen Zunes, Jacob Mundy.
+
+4. Reconfiguración del poder global (China vs. EE.UU., BRICS+, nueva Guerra Fría)
+
+"The Trade in Electricity" – IEEE Spectrum.
+
+"China Pushes Past U.S. in Smart Grid Spending" – IEEE Spectrum.
+
+"China's Grid Architect Proposes a 'Made in China' Upgrade to North America's Power System" – IEEE Spectrum. 
+IEEE Spectrum
++1
+IEEE Spectrum
++1
+IEEE Spectrum
+IEEE Spectrum
+
+5. Intervención internacional y soberanía
+
+"The Responsibility to Protect: Ending Mass Atrocity Crimes Once and for All" – Gareth Evans.
+
+"Sovereignty as Responsibility: Conflict Management in Africa" – Francis M. Deng et al.
+
+"Intervention and Sovereignty in Africa: Conflict Resolution and International Law" – Journal of African Law.
+IEEE Standards Association
++1
+arXiv
++1
+
+⚖️ Facultad de Derecho
+1. Privacidad digital vs. vigilancia estatal
+
+"IEEE Digital Privacy Model" – IEEE Digital Privacy.
+
+"Digital Ethics and Privacy Technology: How to Ethically Manage Data" – IEEE Digital Privacy.
+
+"The Right to Privacy in the Digital Age" – United Nations Human Rights Office.
+IEEE Author Center Journals
++3
+IEEE Digital Privacy
++3
+IEEE Digital Privacy
++3
+IEEE Digital Privacy
++2
+IEEE Digital Privacy
++2
+IEEE Digital Privacy
++2
+
+2. Reconocimiento de derechos a minorías
+
+"International Human Rights Law and the Rights of Minorities" – United Nations OHCHR.
+
+"Minority Rights: International Standards and Guidance for Implementation" – United Nations OHCHR.
+
+"The Rights of Indigenous Peoples: International Standards and National Legislation" – ILO.
+
+3. Crímenes de guerra y justicia internacional
+
+"The Rome Statute of the International Criminal Court: A Commentary" – Otto Triffterer.
+
+"International Criminal Law: Cases and Commentary" – Antonio Cassese et al.
+
+"The International Criminal Court and the End of Impunity in Africa" – Charles Chernor Jalloh.
+
+4. Inteligencia artificial y responsabilidad legal
+
+"Artificial Intelligence and Legal Liability" – John Kingston.
+
+"Accountability of AI Under the Law: The Role of Explanation" – Finale Doshi-Velez et al.
+
+"Law – IEEE Standards Association" – IEEE. 
+arXiv
+arXiv
+IEEE Standards Association
++1
+IEEE Standards Association
++1
+
+5. Migración y derecho internacional
+
+"Europe Expands Virtual Borders To Thwart Migrants" – IEEE Spectrum.
+
+"High-Tech Border Security: Current and Emerging Trends" – IEEE Public Safety.
+
+"International Migration Law: Developing Paradigms and Key Challenges" – IOM.
+IEEE Spectrum
+publicsafety.ieee.org
+
+💰 Facultad de Ciencias Económicas
+1. Criptoeconomía y regulación financiera
+
+"A Survey on Security and Privacy Issues of Bitcoin" – Mauro Conti et al.
+
+"The Economics of Cryptocurrencies – Bitcoin and Beyond" – Jonathan Chiu, Thorsten Koeppl.
+
+"Regulating Cryptocurrencies: Challenges and Considerations" – IMF.
+arXiv
+
+2. Desigualdad económica post-pandemia
+
+"The Inequality Virus" – Oxfam.
+
+"World Inequality Report 2022" – World Inequality Lab.
+
+"COVID-19 and Inequality: A Review of the Evidence" – IMF.
+
+3. Economía circular vs. crecimiento tradicional
+
+"Circular Economy: Principles and Benefits" – Ellen MacArthur Foundation.
+
+"Circular Economy and Economic Growth" – OECD.
+
+"The Circular Economy: A Wealth of Flows" – Ken Webster.
+
+4. Políticas fiscales expansivas y deuda pública
+
+"Fiscal Policy in the COVID-19 Era" – IMF.
+
+"Public Debt and Fiscal Risks" – World Bank.
+
+"The Macroeconomic Effects of Public Investment: Evidence from Advanced Economies" – IMF.
+
+5. Desempleo tecnológico
+
+"Artificial Intelligence and Work: A Critical Review of Recent Research from the Social Sciences" – Jean-Philippe Deranty, Thomas Corbin.
+
+"The Future of Employment: How Susceptible Are Jobs to Computerisation?" – Carl Benedikt Frey, Michael A. Osborne.
+
+"Technological Unemployment: A Brief History" – Oxford Martin School.
+arXiv
+
+🔬 Facultad de Ciencias Naturales
+1. Cambio climático y geoingeniería
+
+"Climate Intervention: Reflecting Sunlight to Cool Earth" – National Academies of Sciences.
+
+"Geoengineering the Climate: Science, Governance and Uncertainty" – Royal Society.
+
+"The Ethics of Climate Engineering: Solar Radiation Management and Non-Ideal Justice" – Christopher J. Preston.
+
+2. Edición genética con CRISPR
+
+"CRISPR-Cas9: A New Tool for Genome Editing" – Jennifer Doudna, Emmanuelle Charpentier.
+
+"Ethical Issues in Genome Editing using CRISPR/Cas9 System" – Journal of Clinical Research & Bioethics.
+
+"Human Genome Editing: Science, Ethics, and Governance" – National Academies of Sciences.
+
+3. Uso de energía nuclear vs. renovables
+
+"The Future of Nuclear Energy in a Carbon-Constrained World" – MIT Energy Initiative.
+
+"Renewable Energy Sources and Climate Change Mitigation" – IPCC.
+
+"Comparative Assessment of Nuclear and Renewable Energy" – World Nuclear Association.
+
+4. Microplásticos y contaminación sistémica
+
+"Microplastics in the Marine Environment: Sources, Consequences and Solutions" – Marine Pollution Bulletin.
+
+"Microplastics in Freshwater Systems: A Review of the Emerging Threats" – Science of The Total Environment.
+
+"Plastic Pollution: A Global Environmental Problem" – Environmental Science & Technology.
+
+5. Inteligencia animal y derechos de especies
+
+"The Cambridge Declaration on Consciousness" – Francis Crick Memorial Conference.
+
+"Animal Consciousness" – Cambridge University Press.
+
+"The Moral Status of Animals" – Stanford Encyclopedia of Philosophy.
+
+🛠️ Facultad de Ingeniería
+1. Desarrollo de Inteligencia Artificial General (AGI)
+
+"Artificial Intelligence and Legal Liability" – John Kingston.
+
+"Accountability of AI Under the Law: The Role of Explanation" – Finale Doshi-Velez et al.
+
+"Law – IEEE Standards Association" – IEEE.

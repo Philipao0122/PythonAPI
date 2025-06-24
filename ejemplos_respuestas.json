@@ -1,0 +1,129 @@
+{
+  "ejemplo_analisis_desinformacion": {
+    "tema": "desinformación",
+    "analisis": {
+      "conceptos_clave": [
+        "Guerra híbrida",
+        "Desinformación",
+        "Propaganda digital",
+        "Operaciones de influencia",
+        "Redes sociales como arma",
+        "Narrativas falsas",
+        "Manipulación de la opinión pública"
+      ],
+      "actores_principales": [
+        "Estados-nación",
+        "Agencias de inteligencia",
+        "Grupos paramilitares",
+        "Plataformas de redes sociales",
+        "Medios de comunicación",
+        "Organizaciones internacionales",
+        "Sociedad civil"
+      ],
+      "casos_de_estudio": [
+        "Interferencia electoral en Estados Unidos (2016)",
+        "Brexit y campañas de desinformación",
+        "Conflicto en Ucrania y guerra informativa",
+        "Operaciones de influencia en África",
+        "Desinformación durante COVID-19"
+      ],
+      "futuro_del_topic": [
+        "Inteligencia artificial para generar deepfakes",
+        "Automatización de campañas de desinformación",
+        "Regulación internacional de la información",
+        "Desarrollo de herramientas de verificación",
+        "Mayor sofisticación en técnicas de manipulación"
+      ],
+      "fuentes": [
+        "Disinformation and Hybrid Warfare: A Critical Analysis – Journal of Strategic Studies",
+        "The Role of Social Media in Hybrid Warfare – NATO Strategic Communications Centre of Excellence",
+        "Information Warfare and the Future of Conflict – RAND Corporation"
+      ]
+    }
+  },
+  "ejemplo_analisis_criptoeconomia": {
+    "tema": "criptoeconomía",
+    "analisis": {
+      "conceptos_clave": [
+        "Blockchain",
+        "Descentralización financiera",
+        "Monedas digitales de bancos centrales",
+        "DeFi",
+        "Tokenización",
+        "Smart contracts",
+        "Regulación cripto"
+      ],
+      "actores_principales": [
+        "Bancos centrales",
+        "Reguladores financieros",
+        "Exchanges de criptomonedas",
+        "Desarrolladores blockchain",
+        "Inversores institucionales",
+        "Usuarios retail",
+        "Gobiernos"
+      ],
+      "casos_de_estudio": [
+        "El Salvador y Bitcoin",
+        "Yuan digital chino",
+        "Colapso de FTX",
+        "Regulación MiCA en Europa",
+        "Adopción institucional de Bitcoin"
+      ],
+      "futuro_del_topic": [
+        "CBDCs globales",
+        "Interoperabilidad blockchain",
+        "Regulación armonizada internacional",
+        "Integración con finanzas tradicionales",
+        "Sostenibilidad energética"
+      ],
+      "fuentes": [
+        "A Survey on Security and Privacy Issues of Bitcoin – Mauro Conti et al.",
+        "The Economics of Cryptocurrencies – Bitcoin and Beyond – Jonathan Chiu, Thorsten Koeppl",
+        "Regulating Cryptocurrencies: Challenges and Considerations – IMF"
+      ]
+    }
+  },
+  "ejemplo_analisis_inteligencia_artificial": {
+    "tema": "inteligencia artificial",
+    "analisis": {
+      "conceptos_clave": [
+        "AGI (Inteligencia Artificial General)",
+        "Alineamiento de IA",
+        "Riesgo existencial",
+        "Superinteligencia",
+        "Gobernanza de IA",
+        "Sesgo algorítmico",
+        "Transparencia de IA"
+      ],
+      "actores_principales": [
+        "Laboratorios de IA",
+        "Reguladores",
+        "Investigadores de seguridad de IA",
+        "Empresas tecnológicas",
+        "Gobiernos",
+        "Organizaciones internacionales",
+        "Sociedad civil"
+      ],
+      "casos_de_estudio": [
+        "Desarrollo de GPT y LLMs",
+        "Regulación de IA en la UE",
+        "Competencia en IA EE.UU.-China",
+        "Casos de sesgo en algoritmos",
+        "Iniciativas de seguridad de IA"
+      ],
+      "futuro_del_topic": [
+        "Desarrollo de AGI",
+        "Estándares globales de IA",
+        "IA cuántica",
+        "Automatización masiva del trabajo",
+        "Sistemas de IA autónomos"
+      ],
+      "fuentes": [
+        "Artificial Intelligence and Legal Liability – John Kingston",
+        "Accountability of AI Under the Law: The Role of Explanation – Finale Doshi-Velez et al.",
+        "Law – IEEE Standards Association – IEEE"
+      ]
+    }
+  }
+}
+
