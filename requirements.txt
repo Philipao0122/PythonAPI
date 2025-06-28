@@ -1,27 +1,15 @@
-# Dependencias principales
+# requirements.txt
+
+# --- Framework y Servidor ---
 Flask==3.1.1
+gunicorn==21.2.0
+Flask-Cors
+
+# --- Base de Datos ---
 Flask-SQLAlchemy==3.1.1
-greenlet==3.2.3
-gunicorn==21.2.0
-itsdangerous==2.2.0
-Jinja2==3.1.6
-MarkupSafe==3.0.2
-python-dotenv==1.0.0
 SQLAlchemy==2.0.41
-
-# Dependencias de Flask
-Werkzeug==3.1.3
-Jinja2==3.1.6
-itsdangerous==2.2.0
-click==8.2.1
-blinker==1.9.0
-
-# Dependencias de desarrollo
-gunicorn==21.2.0
-waitress==3.0.2
-
-# Otras dependencias
 greenlet==3.2.3
-typing_extensions==4.14.0
-Werkzeug==3.1.3
+psycopg2-binary  # <--- ¡IMPORTANTE! Añade esto para usar PostgreSQL en Render
+
+# --- Utilidades ---
 python-dotenv==1.0.0
