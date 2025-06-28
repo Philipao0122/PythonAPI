@@ -407,15 +407,25 @@ class TopicAnalyzer:
     def get_available_topics(self):
         """
         Obtener todos los temas disponibles con su información completa
+        
+        Returns:
+            dict: Diccionario con la lista de temas y el total
+            Cada tema incluye:
+            - id: Identificador único del tema
+            - title: Título descriptivo
+            - summary: Resumen del tema
+            - faculty: Información de la facultad
+            - type: Tipo de contenido
+            - tags: Etiquetas relacionadas
+            - created_at: Fecha de creación
+            - author: Información del autor
+            - actions: Acciones disponibles
         """
-        # Devolver directamente la estructura completa de cada tema
-        topics_list = [
-            {
-                'id': topic_id,
-                **topic_data
-            } 
-            for topic_id, topic_data in self.topics_data.items()
-        ]
+        topics_list = []
+        for topic_id in self.topics_data.keys():
+            # Usar _get_topic_details para obtener la estructura completa
+            topic_details = self._get_topic_details(topic_id)
+            topics_list.append(topic_details)
             
         return {
             'topics': topics_list,

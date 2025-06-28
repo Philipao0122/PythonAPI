@@ -6,14 +6,23 @@ from pathlib import Path
 project_root = Path(__file__).parent.parent
 sys.path.insert(0, str(project_root))
 
+import os
+from dotenv import load_dotenv
 from flask import Flask, send_from_directory, jsonify
 from flask_cors import CORS
 from models.user import db, User  # Updated import path
 from routes.user import user_bp
 from routes.topic_analyzer import topic_analyzer_bp
 
+# Cargar variables de entorno
+load_dotenv()
+
 app = Flask(__name__, static_folder=os.path.join(os.path.dirname(__file__), 'static'))
-app.config['SECRET_KEY'] = 'asdf#FGSgvasgf$5$WGT'
+app.config['SECRET_KEY'] = os.getenv('SECRET_KEY', 'clave_por_defecto_segura_cambiar_en_produccion')
+
+# Validar que se haya configurado la clave secreta
+if app.config['SECRET_KEY'] == 'clave_por_defecto_segura_cambiar_en_produccion':
+    print('ADVERTENCIA: Se está utilizando una clave secreta por defecto. Configura la variable de entorno SECRET_KEY para producción.')
 
 # Habilitar CORS para todas las rutas
 CORS(app)
@@ -54,4 +63,5 @@ def serve(path):
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5002, debug=True)
+    port = int(os.environ.get('PORT', 10000))
+    app.run(host='0.0.0.0', port=port, debug=False)
