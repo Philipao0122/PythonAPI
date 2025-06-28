@@ -283,6 +283,145 @@ class TopicAnalyzer:
             }
         }
     
+    def _get_topic_details(self, topic_id):
+        """
+        Obtiene los detalles de un tema en el nuevo formato
+        """
+        # Mapeo de IDs a títulos y facultades
+        topics_metadata = {
+            "desinformacion_guerra_hibrida": {
+                "title": "¿Cómo las potencias mundiales están usando la guerra híbrida para evitar conflictos directos?",
+                "faculty": {
+                    "code": "GP",
+                    "name": "Ciencias Políticas",
+                    "color": "#3B82F6"
+                },
+                "type": "Debate",
+                "author_role": "Analista de política internacional"
+            },
+            "regimenes_autoritarios": {
+                "title": "El auge de los regímenes autoritarios en el siglo XXI",
+                "faculty": {
+                    "code": "GP",
+                    "name": "Ciencias Políticas",
+                    "color": "#3B82F6"
+                },
+                "type": "Estudio",
+                "author_role": "Investigador en sistemas políticos"
+            },
+            "conflictos_persistentes": {
+                "title": "Conflictos persistentes en el escenario global actual",
+                "faculty": {
+                    "code": "RRII",
+                    "name": "Relaciones Internacionales",
+                    "color": "#10B981"
+                },
+                "type": "Análisis",
+                "author_role": "Especialista en resolución de conflictos"
+            },
+            "poder_global": {
+                "title": "La reconfiguración del poder global en la era multipolar",
+                "faculty": {
+                    "code": "RRII",
+                    "name": "Relaciones Internacionales",
+                    "color": "#10B981"
+                },
+                "type": "Análisis",
+                "author_role": "Analista geopolítico"
+            },
+            "privacidad_digital": {
+                "title": "Privacidad y vigilancia en la era digital",
+                "faculty": {
+                    "code": "TI",
+                    "name": "Tecnologías de la Información",
+                    "color": "#8B5CF6"
+                },
+                "type": "Debate",
+                "author_role": "Experto en seguridad digital"
+            },
+            "criptoeconomia": {
+                "title": "El impacto de la criptoeconomía en el sistema financiero global",
+                "faculty": {
+                    "code": "EF",
+                    "name": "Economía y Finanzas",
+                    "color": "#F59E0B"
+                },
+                "type": "Análisis",
+                "author_role": "Analista financiero"
+            },
+            "cambio_climatico": {
+                "title": "Cambio climático y sus implicaciones globales",
+                "faculty": {
+                    "code": "AM",
+                    "name": "Medio Ambiente",
+                    "color": "#10B981"
+                },
+                "type": "Investigación",
+                "author_role": "Investigador ambiental"
+            },
+            "inteligencia_artificial": {
+                "title": "El futuro de la inteligencia artificial y su impacto social",
+                "faculty": {
+                    "code": "TI",
+                    "name": "Tecnologías de la Información",
+                    "color": "#8B5CF6"
+                },
+                "type": "Análisis",
+                "author_role": "Experto en IA"
+            }
+        }
+        
+        data = self.topics_data.get(topic_id, {})
+        metadata = topics_metadata.get(topic_id, {
+            "title": topic_id.replace('_', ' ').title(),
+            "faculty": {"code": "GP", "name": "General", "color": "#6B7280"},
+            "type": "Artículo",
+            "author_role": "Autor"
+        })
+
+        # Extraer las primeras 3 etiquetas de los conceptos clave
+        tags = [tag.lower() for tag in data.get('conceptos_clave', [])[:3]]
+        
+        # Crear un resumen basado en los conceptos clave
+        summary = f"¿Alguien más ha notado cómo {', '.join(data.get('conceptos_clave', ['este tema'])[:2])} están afectando el panorama actual? Analicemos las implicaciones..."
+        
+        return {
+            "id": topic_id,
+            "title": metadata["title"],
+            "summary": summary,
+            "faculty": metadata["faculty"],
+            "type": metadata["type"],
+            "tags": tags,
+            "created_at": "2025-06-27T18:00:00Z",
+            "author": {
+                "name": "Equipo Académico",
+                "role": metadata["author_role"]
+            },
+            "actions": {
+                "view_url": f"/tema/{topic_id}",
+                "download_url": f"/descargar/{topic_id}.pdf",
+                "comment_enabled": True
+            }
+        }
+
+    def get_available_topics(self):
+        """
+        Obtener todos los temas disponibles con su información completa
+        """
+        # Devolver directamente la estructura completa de cada tema
+        topics_list = [
+            {
+                'id': topic_id,
+                **topic_data
+            } 
+            for topic_id, topic_data in self.topics_data.items()
+        ]
+            
+        return {
+            'topics': topics_list,
+            'total': len(topics_list)
+        }
+
     def normalize_topic_name(self, topic_name):
         """Normaliza el nombre del tema para buscar en la base de datos"""
         # Convertir a minúsculas y reemplazar espacios y caracteres especiales
@@ -417,33 +556,32 @@ def get_available_topics():
             {
               "topics": [{
                 "id": "desinformacion_guerra_hibrida",
-                "name": "Desinformación en Guerra Híbrida",
-                "key_concepts": ["Guerra híbrida", "Desinformación", ...],
-                "main_actors": ["Estados-nación", "Agencias de inteligencia", ...],
-                "case_studies": ["Interferencia electoral en Estados Unidos (2016)", ...],
-                "future_trends": ["IA para generar deepfakes", ...]
+                "title": "Desinformación en Guerra Híbrida",
+                "summary": "¿Alguien más ha notado cómo guerra híbrida, desinformación están afectando el panorama actual? Analicemos las implicaciones...",
+                "faculty": {
+                  "code": "GP",
+                  "name": "Ciencias Políticas",
+                  "color": "#3B82F6"
+                },
+                "type": "Análisis",
+                "tags": ["guerra híbrida", "desinformación"],
+                "created_at": "2025-06-27T18:00:00Z",
+                "author": {
+                  "name": "Equipo Académico",
+                  "role": "Analista de política internacional"
+                },
+                "actions": {
+                  "view_url": "/tema/desinformacion_guerra_hibrida",
+                  "download_url": "/descargar/desinformacion_guerra_hibrida.pdf",
+                  "comment_enabled": true
+                }
               }],
               "total": 8
             }
     """
     try:
-        topics_list = []
-        for topic_id, topic_data in analyzer.topics_data.items():
-            topic_info = {
-                "id": topic_id,
-                "name": topic_id.replace("_", " ").title(),
-                "key_concepts": topic_data.get("conceptos_clave", []),
-                "main_actors": topic_data.get("actores_principales", []),
-                "case_studies": topic_data.get("casos_de_estudio", []),
-                "future_trends": topic_data.get("futuro_del_topic", [])
-            }
-            topics_list.append(topic_info)
-        
-        return jsonify({
-            "topics": topics_list,
-            "total": len(topics_list)
-        }), 200
-        
+        return jsonify(analyzer.get_available_topics()), 200
+
     except Exception as e:
         return jsonify({
             "status": "error",
